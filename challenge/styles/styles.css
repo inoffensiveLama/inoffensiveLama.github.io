@@ -1,0 +1,29 @@
+h1:hover {
+    color: black;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    width: 10%;
+}
+
+body {
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+#quote {
+    color: black;
+}
+
+.bigger-text {
+    font-size: 40px;
+}
+
+ol {
+    color: black;
+}
