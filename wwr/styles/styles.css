@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Rowdies&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #483519;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -19,6 +22,7 @@ nav a {
 
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 
 #background {
@@ -28,6 +32,10 @@ main section {
 
 body {
     background-color: #0091ad ;
+    font-family:  "Chivo Mono", Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -43,6 +51,10 @@ nav a:hover {
     background-color: #ffffff ;
     color: #483519;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,6 +64,8 @@ nav a:hover {
 
 .msg {
     background-color: #0091ad ;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
@@ -60,6 +74,9 @@ footer {
 
 .home-title {
     color: #ffffff;
+    font-family: Rowdies, "IM Fell French Canon", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -68,14 +85,19 @@ h4 {
 
 .msg h2 {
     color: #ffffff;
+    font-family: Rowdies, "IM Fell French Canon", Arial, Helvetica, sans-serif;
 }
 
 .msg p {
     color: #ffffff;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -89,6 +111,7 @@ footer a:hover  {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -101,4 +124,25 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {  
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {  
+    margin: 200px 0;
+    
+}
+
+.card-img {
+    border: 10px solid #ffffff;
 }
