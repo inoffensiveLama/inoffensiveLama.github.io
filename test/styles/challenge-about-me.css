@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+
+.hero-img {
+    width: 1000px;
+}
+
+#icon {
+    width: 50%;
+}
