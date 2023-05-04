@@ -1,12 +1,16 @@
 body {
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
     background-color: grey;
 }
 
-.hero-img {
-    width: 1000px;
+#hero-img {
+    width: 100%;
 }
 
-#icon {
-    width: 50%;
+.icon {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #606060;
+    margin: 2%;
 }
