@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: grey;
+    margin: 0 auto;
 }
 
 .card {
@@ -11,6 +12,7 @@ body {
     grid-template-columns: 1fr 100px 100px 100px 1fr;
     background-color: white;
     border-radius: 15px;
+    margin: 0 auto;
 }
 
 .hero_img {
