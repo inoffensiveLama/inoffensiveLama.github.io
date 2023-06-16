@@ -220,11 +220,13 @@ nav {
 .rivers-img-left {
     grid-column: 1/2;
     max-width: 400px;
+    padding-top: 50px;
 }
 
 .rivers-img-right {
     grid-column: 3/4;
     max-width: 400px;
+    padding-top: 50px;
 }
 
 .rivers-p-left {
